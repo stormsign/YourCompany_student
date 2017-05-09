@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor_common">
+
+    <com.miuhouse.yourcompany.student.view.widget.ViewPagerIndicator
+        android:id="@+id/orderIndicator"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:background="@color/themeColor"
+        app:item_count="4"
+        app:indicator_type="rectangle"/>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@drawable/shadow_down" />
+
+    <android.support.v4.view.ViewPager
+        android:id="@+id/orderpager"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+</LinearLayout>

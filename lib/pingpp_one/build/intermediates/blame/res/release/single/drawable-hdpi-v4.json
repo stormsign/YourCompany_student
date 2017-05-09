@@ -1,0 +1,70 @@
+[
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\cmbkb_backspace_icon.png",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\cmbkb_backspace_icon.png"
+    },
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\cmbkb_backspace_dark_icon.png",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\cmbkb_backspace_dark_icon.png"
+    },
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\cmbkb_shift_actived.png",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\cmbkb_shift_actived.png"
+    },
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\cmbkb_btn_normal.9.png",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\cmbkb_btn_normal.9.png"
+    },
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\cmbkb_sym_keyboard_space.png",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\cmbkb_sym_keyboard_space.png"
+    },
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\tips_bg.9.png",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\tips_bg.9.png"
+    },
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\cmbkb_space.png",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\cmbkb_space.png"
+    },
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\pingpp_back.png",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\pingpp_back.png"
+    },
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\cmbkb_shift_dark_normal.png",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\cmbkb_shift_dark_normal.png"
+    },
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\cmbkb_list_separator.png",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\cmbkb_list_separator.png"
+    },
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\cmbkb_emotionstore_progresscancelbtn.png",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\cmbkb_emotionstore_progresscancelbtn.png"
+    },
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\cmbkb_btn_pressed.9.png",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\cmbkb_btn_pressed.9.png"
+    },
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\cmbkb_bg.9.png",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\cmbkb_bg.9.png"
+    },
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\cmbkb_key_delete_normal.png",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\cmbkb_key_delete_normal.png"
+    },
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\cmbkb_shift_normal.png",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\cmbkb_shift_normal.png"
+    },
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\cmbkb_space_dark.png",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\cmbkb_space_dark.png"
+    },
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\drawable-hdpi-v4\\cmbkb_logo.png",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp\\build\\intermediates\\bundles\\default\\res\\drawable-hdpi-v4\\cmbkb_logo.png"
+    }
+]

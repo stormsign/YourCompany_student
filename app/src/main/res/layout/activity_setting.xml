@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor_common"
+    android:orientation="vertical">
+
+  <RelativeLayout
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/linear_45dp"
+      android:layout_marginTop="10dp"
+      android:background="@drawable/selectable_item_background">
+
+
+    <TextView
+        style="@style/user_info_text"
+        android:layout_alignParentLeft="true"
+        android:text="消息通知"/>
+
+    <android.support.v7.widget.SwitchCompat
+        android:id="@+id/switchcompat_appointment"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_marginRight="10dp"
+        android:background="@null"
+        android:checked="false"
+        android:gravity="center"
+        android:textOff="OFF"
+        android:textOn="ON"
+        android:theme="@style/BrandedSwitch.control"/>
+  </RelativeLayout>
+
+  <View
+      android:layout_width="match_parent"
+      android:layout_height="0.5dp"
+      android:background="@color/view_line"/>
+
+  <RelativeLayout
+      android:id="@+id/relative_about"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/linear_45dp"
+      android:background="@drawable/selectable_item_background"
+      android:elevation="1dp">
+
+    <TextView
+        style="@style/user_info_text"
+        android:layout_alignParentLeft="true"
+        android:text="关于e学陪"/>
+
+    <ImageView style="@style/user_info_imageview"/>
+  </RelativeLayout>
+
+  <RelativeLayout
+      android:id="@+id/relative_logout"
+      android:layout_width="match_parent"
+      android:layout_height="@dimen/linear_45dp"
+      android:layout_marginTop="10dp"
+      android:background="@drawable/selectable_item_background"
+      android:elevation="1dp">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="退出登录"
+        android:textColor="@color/themeColor"
+        android:textSize="@dimen/text_15"/>
+
+  </RelativeLayout>
+</LinearLayout>

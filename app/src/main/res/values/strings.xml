@@ -1,0 +1,229 @@
+<resources xmlns:xliff="http://schemas.android.com/apk/res-auto">
+    <string name="app_name">e学陪</string>
+    <string name="ex_msg_dialog_choice_confirm">Confirm button is only for multi choice lists. You must call setMultiChoiceItems first</string>
+    <string name="ex_msg_dialog_view_not_set">You must call method setView before calling configureView.</string>
+
+    <string name="tip_no_internet">当前没有可用的网络链接</string>
+    <!--Login-->
+    <string name="login">登录</string>
+    <string name="regist">注册</string>
+    <!--end-->
+    <!-- 临时 -->
+    <string name="welcom_head_01">Spreadsheets on the go</string>
+    <string name="welcom_content_01">Get stuff done with or without an internet connection.</string>
+    <string name="welcom_head_02">Share and edit together</string>
+    <string name="welcom_content_02">Write on your own or invite more people to contribute.</string>
+    <string name="welcom_head_03">Automatically save to the web</string>
+    <string name="welcom_content_03">Never lose your progress, so you can keep working from any computer or device.</string>
+    <string name="welcom_head_04">Edit Excel spreadsheets</string>
+    <string name="welcom_content_04">Open, edit, and save Excel files - all within Sheets.</string>
+    <!--我的资料-->
+    <string name="student_name">学生姓名</string>
+    <string name="parent_name">家长姓名</string>
+    <string name="student_grade">学生年级</string>
+    <string name="suject">科目</string>
+    <string name="interest">兴趣</string>
+    <string name="parent_mobile">电话</string>
+    <string name="not_write">未填写</string>
+    <!--end-->
+    <!-- 异常消息 -->
+    <string name="exception_no_msg">暂无消息</string>
+    <string name="exception_no_comment">暂无评价</string>
+    <string name="exception_no_teacher">现在还没有老师抢单\n等会再来吧</string>
+    <string name="exception_no_order">你还没有订单\n赶快去下单吧</string>
+    <string name="exception_no_network">网络有些问题，请稍后再试</string>
+    <string name="order_status_not_chosen">已选择其他老师</string>
+    <string name="exception_no_address">没有添加上课地址\n需要添加上课地址才能发布任务哦</string>
+    <string name="exception_no_personal_content">还没有内容\r\n你没有发布过动态</string>
+    <!-- end -->
+    <string name="mis_folder_all">所有照片</string>
+    <string name="mis_preview">预览</string>
+    <string name="mis_msg_no_camera">没有系统相机</string>
+    <string name="mis_msg_amount_limit">已经达到最高选择数量</string>
+    <string name="mis_action_done">完成</string>
+    <string name="mis_photo_unit">张</string>
+    <string name="mis_tip_take_photo">拍摄照片</string>
+    <string name="mis_error_image_not_exist">图片错误</string>
+    <string name="mis_error_no_permission">无权限</string>
+    <string name="mis_permission_dialog_title">权限拒绝</string>
+    <string name="mis_permission_dialog_ok">好</string>
+    <string name="mis_permission_dialog_cancel">拒绝</string>
+    <string name="mis_permission_rationale">浏览图片需要您提供浏览存储的权限</string>
+    <string name="mis_permission_rationale_write_storage">保存拍照图片需要您提供写存储权限</string>
+
+    <!--订单类型-->
+    <string name="order_type_1">陪伴</string>
+    <string name="order_type_2">作业辅导</string>
+    <string name="order_type_3">兴趣培养</string>
+
+    <string name="order_term_2">包周</string>
+    <string name="order_term_3">包月</string>
+
+    <string name="profile_imcomplete">你的资料未完善</string>
+    <string name="profile_complete">个人资料</string>
+    <string name="need_complete_profile">确认订单需要完善资料</string>
+
+    <string name="order_status_1">待支付</string>
+    <string name="order_status_2">待抢单</string>
+    <string name="order_status_3">待上课</string>
+    <string name="order_status_4">进行中</string>
+    <string name="order_status_5">待评价</string>
+    <string name="order_status_6">已完成</string>
+    <string name="order_status_7">投诉</string>
+    <string name="order_status_8">待退款</string>
+    <string name="order_status_0">取消</string>
+
+    <string name="activity_description_introduce">个人介绍</string>
+
+    <string name="reservation_teacher">预约老师</string>
+
+    <string name="item_is_selected"><xliff:g example="2013" id="item">%1$s</xliff:g> selected</string>
+
+    <!--
+        Content description for the month and day selector in the date picker, which displays
+        a selectable grid of days laid out by month.
+        [CHAR LIMIT=50]
+     -->
+    <string name="day_picker_description">Month grid of days</string>
+
+    <!-- Accessibility announcement for the day picker [CHAR LIMIT=NONE] -->
+    <string name="select_day">Select month and day</string>
+
+    <!--
+        Content description for the year selector in the date picker, which displays
+        a scrolling, vertical list of years.
+        [CHAR LIMIT=50]
+     -->
+    <string name="year_picker_description">Year list</string>
+
+    <!-- Accessibility announcement for the year picker [CHAR LIMIT=NONE] -->
+    <string name="select_year">Select year</string>
+
+    <!-- Preference framework strings. -->
+    <string name="ok">OK</string>
+    <!-- Preference framework strings. -->
+    <string name="cancel">Cancel</string>
+
+    <!-- SublimeTimePicker -->
+
+    <!-- Accessibility announcement for hour circular picker [CHAR LIMIT=NONE] -->
+    <string name="select_hours">Select hours</string>
+    <!-- Accessibility announcement for minute circular picker [CHAR LIMIT=NONE] -->
+    <string name="select_minutes">Select minutes</string>
+    <!-- Accessibility announcement when a number that had been typed in is deleted [CHAR_LIMIT=NONE] -->
+    <string name="deleted_key"><xliff:g example="4" id="key">%1$s</xliff:g> deleted</string>
+
+
+    <!-- Recurrence Picker -->
+    <!-- Calendar spinner item, to select that an event recurs every year. -->
+    <string name="yearly_plain">Yearly</string>
+    <!-- The common portion of a string describing how often an event repeats,
+         example: 'Monthly (on day 2)' -->
+    <string name="monthly">Monthly</string>
+    <!-- A description for an event that repeats weekly on some day of the week. For example,
+         'Weekly on Tuesday' or Every 2 weeks on Monday, Tuesday.  [CHAR LIMIT=25]-->
+    <plurals name="weekly">
+        <item quantity="one">Weekly on <xliff:g id="days_of_week">%2$s</xliff:g></item>
+        <item quantity="other">Every <xliff:g id="number">%1$d</xliff:g> weeks on <xliff:g id="days_of_week">%2$s</xliff:g></item>
+    </plurals>
+    <!-- A label in a multiple-choice list for the specifying that an event
+         repeats every weekday (Monday through Friday) -->
+    <string name="every_weekday">"Every weekday (Mon\u2013Fri)"</string>
+    <!-- A description for an event that repeats daily. For example, Every 2 days [CHAR LIMIT=15]-->
+    <plurals name="daily">
+        <item quantity="one">Daily</item>
+        <item quantity="other">Every <xliff:g id="number">%d</xliff:g> days</item>
+    </plurals>
+    <!-- Part of a description of an repeating event. This part how many times the event repeats.
+         The part before the semi-colon describes how it repeats.
+         e.g. Every 2 weeks; for 15 times [CHAR LIMIT=15] -->
+    <plurals name="endByCount">
+        <item quantity="one">; for one time</item>
+        <item quantity="other">; for <xliff:g id="number">%d</xliff:g> times</item>
+    </plurals>
+    <!-- Part of a description of an repeating event. This part states the date when a repeating
+         event ends. The part before the semi-colon describes how it repeats.
+         e.g. Every 2 weeks; until 1/1/2030 [CHAR LIMIT=21] -->
+    <string name="endByDate">; until <xliff:g id="date">%s</xliff:g></string>
+    <!-- Specifies that a repeating event should repeat for a certain number of iterations. [CHAR LIMIT=20]-->
+    <plurals name="recurrence_end_count">
+        <item quantity="one">For <xliff:g id="event_count">%d</xliff:g> event</item>
+        <item quantity="other">For <xliff:g id="event_count">%d</xliff:g> events</item>
+    </plurals>
+    <!-- Specifies that a repeating event to repeat forever (based on the defined frequency) instead of ending at a future date[CHAR LIMIT=20] -->
+    <string name="recurrence_end_continously">Forever</string>
+    <!-- Specifies that a repeating event to repeat until a certain date[CHAR LIMIT=25] -->
+    <string name="recurrence_end_date_label">Until a date</string>
+    <!-- Specifies that a repeating event to repeat until a certain date[CHAR LIMIT=20] -->
+    <string name="recurrence_end_date">Until <xliff:g id="date">%s</xliff:g></string>
+    <!-- Specifies that a repeating event to repeat for a number of times. A repeating event can repeat forever, repeat in a certain frequency until a certain date, or repeat for a number of times. e.g. repeat 10 times and stop. This string is for the last case [CHAR LIMIT=25] -->
+    <string name="recurrence_end_count_label">For a number of events</string>
+    <!-- Strings to describe how frequently to repeat an event (e.g. every 5 days) -->
+    <plurals name="recurrence_interval_daily">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <item quantity="one">Every <xliff:g id="count">%d</xliff:g> day</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
+        <item quantity="other">Every <xliff:g id="count">%d</xliff:g> days</item>
+    </plurals>
+    <!-- Strings to describe how frequently to repeat an event (e.g. every 5 weeks) -->
+    <plurals name="recurrence_interval_weekly">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <item quantity="one">Every <xliff:g id="count">%d</xliff:g> week</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
+        <item quantity="other">Every <xliff:g id="count">%d</xliff:g> weeks</item>
+    </plurals>
+    <!-- Strings to describe how frequently to repeat an event (e.g. every 5 months) -->
+    <plurals name="recurrence_interval_monthly">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <item quantity="one">Every <xliff:g id="count">%d</xliff:g> month</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
+        <item quantity="other">Every <xliff:g id="count">%d</xliff:g> months</item>
+    </plurals>
+    <!-- Strings to describe how frequently to repeat an event (e.g. every 5 years) -->
+    <plurals name="recurrence_interval_yearly">
+        <!-- Singular form [CHAR LIMIT=30] -->
+        <item quantity="one">Every <xliff:g id="count">%d</xliff:g> year</item>
+        <!-- Plural form [CHAR LIMIT=30] -->
+        <item quantity="other">Every <xliff:g id="count">%d</xliff:g> years</item>
+    </plurals>
+    <!-- Description of the selected marker for accessibility support [CHAR LIMIT = NONE]-->
+    <string name="acessibility_recurrence_choose_end_date_description">change end date</string>
+    <!-- Repeat an monthly event on the same day of every month [CHAR LIMIT=20] -->
+    <string name="recurrence_month_pattern_by_day">on the same day each month</string>
+
+    <!-- Needs translation -->
+
+    <string name="cd_positive_component">ok, set date/time</string>
+    <string name="cd_negative_component">Cancel, do not set date/time</string>
+
+    <string name="recurrence_heading">repeat options</string>
+    <string name="recurrence_does_not_repeat">does not repeat</string>
+    <string name="recurrence_daily">every day</string>
+    <string name="recurrence_weekly">every week</string>
+    <string name="recurrence_monthly">every month</string>
+    <string name="recurrence_yearly">every year</string>
+    <string name="recurrence_custom">custom&#8230;</string>
+
+    <!-- Description of the button to move to the previous month. [CHAR LIMIT=NONE] -->
+    <string name="sp_date_picker_prev_month_button">Previous month</string>
+    <!-- Description of the button to move to the next month. [CHAR LIMIT=NONE] -->
+    <string name="sp_date_picker_next_month_button">Next month</string>
+
+    <string name="order_msg_content_1">您购买的“e学陪”订单，已有老师抢单，快点去看看吧。</string>
+    <string name="order_msg_title_1">订单有老师抢单</string>
+    <string name="order_msg_content_2">您购买的“e学陪”订单，老师开始上课了。</string>
+    <string name="order_msg_title_2">开始上课</string>
+    <string name="order_msg_content_3">您购买的“e学陪”课程，老师已完成课时</string>
+    <string name="order_msg_title_3">上课结束</string>
+    <string name="order_msg_content_4">您购买的“e学陪”订单已退款，订单取消。</string>
+    <string name="order_msg_title_4">订单已退款</string>
+    <string name="loading">正在加载中...</string>
+    <string name="data_unknown">未知</string>
+    <string name="selection_class_time">选择上课时间</string>
+    <string name="selection_class_date">选择上课日期</string>
+    <string name="pay_now">下单</string>
+
+    <string name="be_commented">评论了你</string>
+    <string name="be_liked">赞了你</string>
+
+</resources>

@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor_common"
+    android:id="@+id/content">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white"
+        android:gravity="center"
+        android:paddingLeft="12dp"
+        android:paddingTop="10dp"
+        android:paddingRight="12dp"
+        android:paddingBottom="10dp">
+
+        <com.miuhouse.yourcompany.student.view.widget.CircularImageViewHome
+            android:id="@+id/header"
+            android:layout_width="@dimen/img_order_head_size"
+            android:layout_height="@dimen/img_order_head_size"
+            android:layout_alignParentLeft="true"
+            android:src="@mipmap/login_logo"/>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@id/header"
+            android:layout_centerVertical="true"
+            android:orientation="vertical"
+            android:layout_marginLeft="10dp">
+
+            <TextView android:id="@+id/tName"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textDarkone"
+                android:text="图样"
+                android:textSize="15sp"
+                android:layout_marginBottom="6dp"/>
+
+            <TextView android:id="@+id/beginTime"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="12/12 12：18"
+                android:textColor="@color/textDarkthree"
+                android:textSize="15sp"/>
+
+        </LinearLayout>
+
+        <TextView android:id="@+id/orderType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="小区"
+            android:textColor="@color/textWhite"
+            android:textSize="13dp"
+            android:gravity="center"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentTop="true"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textDarkone"
+            android:textSize="15sp"
+            android:text="退款理由"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText android:id="@+id/refundReason"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="退款理由"
+            android:textColor="@color/textDarkthree"
+            android:textColorHint="@color/textDarkthree"
+            android:textSize="15sp"
+            android:gravity="center_vertical"
+            android:background="@color/white"
+            android:paddingLeft="10dp"
+            android:paddingTop="11dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="12dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textDarkone"
+            android:textSize="15sp"
+            android:text="退款金额"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText android:id="@+id/refundAmount"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="退款金额"
+            android:textSize="15sp"
+            android:textColor="@color/textDarkone"
+            android:gravity="center_vertical"
+            android:background="@color/white"
+            android:paddingLeft="10dp"
+            android:paddingTop="11dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="12dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textDarkone"
+            android:textSize="15sp"
+            android:text="退款说明"
+            android:layout_marginBottom="10dp"/>
+
+        <EditText android:id="@+id/refundDesc"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="请输入退款说明"
+            android:textColorHint="@color/textDarkthree"
+            android:textSize="15sp"
+            android:textColor="@color/textDarkthree"
+            android:gravity="center_vertical"
+            android:background="@color/white"
+            android:paddingLeft="10dp"
+            android:paddingTop="11dp"
+            android:paddingRight="10dp"
+            android:paddingBottom="12dp"/>
+
+    </LinearLayout>
+
+    <TextView android:id="@+id/submit"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="15dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:text="提交"
+        android:textColor="@color/textWhite"
+        android:textSize="15sp"
+        android:gravity="center"
+        android:padding="15dp"
+        android:background="@drawable/selector_orange_button_round"/>
+
+</LinearLayout>

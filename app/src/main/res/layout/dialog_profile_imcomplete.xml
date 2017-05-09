@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="30dp"
+        android:background="@drawable/border_round"
+        android:paddingLeft="20dp"
+        android:paddingRight="20dp"
+        android:paddingBottom="18dp">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_centerHorizontal="true"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="40dp">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/profile_imcomplete"
+                android:textSize="15sp"
+                android:textColor="@color/textDarkone"
+                android:layout_centerHorizontal="true"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textDarkthree"
+                android:text="@string/need_complete_profile"
+                android:textSize="14sp"/>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="28dp">
+
+                <TextView android:id="@+id/exit"
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textDarktwo"
+                    android:textSize="15sp"
+                    android:text="放弃"
+                    android:gravity="center"
+                    android:paddingTop="7dp"
+                    android:paddingBottom="7dp"
+                    android:layout_marginRight="20dp"
+                    android:background="@drawable/selector_btn_grey_fullround"/>
+
+                <TextView android:id="@+id/complete"
+                    android:layout_width="96dp"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textWhite"
+                    android:textSize="15sp"
+                    android:text="去完善"
+                    android:gravity="center"
+                    android:paddingTop="7dp"
+                    android:paddingBottom="7dp"
+                    android:clickable="true"
+                    android:background="@drawable/selector_btn_orange_fullround"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <ImageView android:id="@+id/icon"
+        android:layout_width="63dp"
+        android:layout_height="63dp"
+        android:src="@mipmap/ico_profile"
+        android:layout_centerHorizontal="true"/>
+
+</RelativeLayout>

@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:background="@color/white"
+    android:gravity="center"
+    android:id="@+id/content">
+
+    <TextView android:id="@+id/unreadCount"
+        android:layout_width="wrap_content"
+        android:layout_height="30dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        android:paddingLeft="10dp"
+        android:paddingRight="10dp"
+        android:text="5条未读消息"
+        android:textColor="@color/textWhite"
+        android:textSize="14sp"
+        android:background="@color/cardview_dark_background"
+        android:gravity="center_vertical"
+        android:drawablePadding="5dp"
+        android:drawableLeft="@mipmap/ico_xiaoxi"/>
+
+</LinearLayout>

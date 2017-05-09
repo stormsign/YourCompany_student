@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor_common">
+
+    <RelativeLayout android:id="@+id/sysMsg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/home_sysmsg_height"
+        android:background="@color/white">
+
+        <ImageView android:id="@+id/sysMsgIcon"
+            android:layout_width="@dimen/img_sysmsg_size"
+            android:layout_height="@dimen/img_sysmsg_size"
+            android:src="@mipmap/ico_msg_xitongtongzhi"
+            android:layout_margin="10dp"
+            android:layout_alignParentLeft="true"/>
+
+
+
+        <LinearLayout android:id="@+id/sysMsgRight"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical">
+
+
+
+            <TextView android:id="@+id/unreadSysMsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:background="@drawable/ico_unread_msg"
+                android:padding="2dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/list_ico_jiantou"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/sysMsgIcon"
+            android:layout_toLeftOf="@id/sysMsgRight"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical">
+
+            <TextView android:id="@+id/sysMsgTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textDarkone"
+                android:textSize="@dimen/text_msg_title"
+                android:text="通知消息"/>
+
+            <TextView android:id="@+id/sysMsgSummary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textDarkthree"
+                android:textSize="@dimen/text_msg_summary"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:layout_marginTop="8dp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/line" />
+
+    <RelativeLayout android:id="@+id/purseMsg"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/home_sysmsg_height"
+        android:background="@color/white">
+
+        <ImageView android:id="@+id/purseMsgIcon"
+            android:layout_width="@dimen/img_sysmsg_size"
+            android:layout_height="@dimen/img_sysmsg_size"
+            android:src="@mipmap/ico_msg_zhanghu"
+            android:layout_margin="10dp"
+            android:layout_alignParentLeft="true"/>
+
+
+
+        <LinearLayout android:id="@+id/purseMsgRight"
+            android:layout_alignParentRight="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical">
+
+
+
+            <TextView android:id="@+id/unreadPurseMsg"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/white"
+                android:textSize="12sp"
+                android:gravity="center"
+                android:background="@drawable/ico_unread_msg"
+                android:padding="2dp"/>
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@mipmap/list_ico_jiantou"
+                android:paddingLeft="10dp"
+                android:paddingRight="10dp"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_toRightOf="@id/purseMsgIcon"
+            android:layout_toLeftOf="@id/purseMsgRight"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical">
+
+            <TextView android:id="@+id/purseMsgTitle"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textDarkone"
+                android:textSize="@dimen/text_msg_title"
+                android:text="订单消息"/>
+
+            <TextView android:id="@+id/purseMsgSummary"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textColor="@color/textDarkthree"
+                android:textSize="@dimen/text_msg_summary"
+                android:ellipsize="end"
+                android:singleLine="true"
+                android:layout_marginTop="8dp"/>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="2dp"
+        android:background="@drawable/shadow_down"/>
+
+    <android.support.v4.widget.SwipeRefreshLayout
+        android:id="@+id/refresh"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:visibility="gone">
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/msgList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+
+    </android.support.v4.widget.SwipeRefreshLayout>
+
+</LinearLayout>

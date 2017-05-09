@@ -1,0 +1,91 @@
+apply plugin: 'com.android.application'
+
+android {
+    signingConfigs {
+        config {
+            keyAlias '深圳市瞄房科技网络有限公司'
+            keyPassword 'password'
+            storeFile file('D:/YourCompany_student/app/hothz.keystore')
+            storePassword 'password'
+        }
+    }
+    compileSdkVersion rootProject.ext.compileSdkVersion
+    buildToolsVersion rootProject.ext.buildToolsVersion
+    aaptOptions.cruncherEnabled = false
+    aaptOptions.useNewCruncher = false
+    defaultConfig {
+        applicationId "com.miuhouse.yourcompany.student"
+        minSdkVersion rootProject.ext.minSdkVersion
+        targetSdkVersion rootProject.ext.targetSdkVersion
+        versionCode 5
+        versionName "1.3"
+        generatedDensities = []
+        multiDexEnabled true
+        ndk {
+            //指定查找文件夹，其余的可以删了
+            abiFilters "armeabi", "armeabi-v7a", "x86", "mips"
+        }
+    }
+    dexOptions {
+        javaMaxHeapSize "4g"
+    }
+    aaptOptions {
+        additionalParameters "--no-version-vectors"
+    }
+    lintOptions {
+        checkReleaseBuilds false
+        abortOnError false
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.config
+        }
+    }
+    productFlavors {}
+    //    sourceSets {
+    //        main{
+    //            jniLibs.srcDir 'libs'
+    //        }
+    //    }
+}
+repositories {
+    flatDir {
+        dirs 'libs'
+    }
+}
+dependencies {
+    compile fileTree(dir: 'libs', include: ['*.jar'])
+    compile "com.android.support:support-v4:$rootProject.ext.support_library_version"
+    compile "com.android.support:appcompat-v7:$rootProject.ext.support_library_version"
+    compile "com.android.support:design:$rootProject.ext.support_library_version"
+    compile "com.android.support:cardview-v7:$rootProject.ext.support_library_version"
+    compile 'com.mcxiaoke.volley:library:1.0.19'
+    compile 'com.google.code.gson:gson:2.6.2'
+    compile files('libs/fastjson-1.1.43.android.jar')
+    compile files('libs/org.apache.http.legacy.jar')
+    compile 'com.github.bumptech.glide:glide:3.7.0'
+    compile "com.android.support:recyclerview-v7:$rootProject.ext.support_library_version"
+    compile name: 'SMSSDK-2.1.0', ext: 'aar'
+    compile name: 'SMSSDKGUI-2.1.0', ext: 'aar'
+    compile files('libs/nineoldandroids-2.4.0.jar')
+    compile files('libs/MobCommons-2016.0624.1326.jar')
+    compile files('libs/MobTools-2016.0624.1326.jar')
+    compile 'com.yalantis:ucrop:2.1.0'
+    compile 'com.github.chrisbanes.photoview:library:1.2.3'
+    compile 'cn.bingoogolapple:bga-badgeview:1.1.3'
+    compile project(':lib:bdwallet_pay_sdk')
+    compile project(':lib:pingpp')
+    compile project(':lib:pingpp_one')
+    //    compile 'com.android.support:gridlayout-v7:23.2.1'
+    compile "com.android.support:support-annotations:$rootProject.ext.support_library_version"
+    compile files('libs/HwPush_SDK_V2705.jar')
+    compile files('libs/AMap_3DMap_V4.1.1_20161019.jar')
+    compile files('libs/AMap_Location_V3.0.0_20160922.jar')
+    compile files('libs/AMap_Search_V3.5.0_20160927.jar')
+    compile 'com.mylhyl:acp:1.1.6'
+    compile files('libs/pushservice-5.3.0.99.jar')
+    compile 'com.umeng.analytics:analytics:latest.integration'
+    compile project(':SmallVideoLib')
+}

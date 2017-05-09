@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="white">#FFF</color>
+    <!--主背景色-->
+    <color name="backgroundcolor_common">#F5F2EE</color>
+    <color name="text_selected">#888</color>
+
+    <!--主题颜色-->
+    <!--<color name="themeColor">#FFFF9800</color>-->
+    <color name="themeColor">#ffF32726</color>
+    <color name="mis_actionbar_color">#21282C</color>
+    <!--字体颜色  DE 87%,8F 56%,66 40%,4d 30%-->
+    <color name="textDarkone">#BB000000</color>
+    <color name="textDarktwo">#8F000000</color>
+    <color name="textDarkthree">#66000000</color>
+    <color name="textDarkfour">#4D000000</color>
+    <color name="textDarkfive">#797979</color>
+    <color name="textRed">#c04444</color>
+    <color name="textOrange">@color/themeColor</color>
+    <color name="textWhite">#F5FFFFFF</color>
+    <color name="textBlue">#FF0BA7EF</color>
+    <color name="line">#DFDFDF</color>
+    <color name="line2">#D8D8D8</color>
+    <color name="text_black">#ff323232</color>
+    <color name="bg_userinfo">#feb28c</color>
+    <color name="view_line">#d8d8d8</color>
+    <!-- list 按下去摸一下的颜色-->
+    <color name="list_press">#E4E4E4</color>
+    <color name="theme_pressed">#801B1A</color>
+    <color name="textInDarkBg">#b4b4b4</color>
+    <color name="lineInDarkBg">#808080</color>
+    <color name="theme_no_enable">#b6b6b6</color>
+
+    <!--订单类型颜色-->
+    <color name="background_order_3">#FFF32726</color>
+    <color name="background_order_2">#FF03A9F4</color>
+    <color name="background_order_1">#FFFF9800</color>
+
+    <color name="button_grey">#EBEBEB</color>
+    <!-- date -->
+
+    <color name="button_border">#cdcdcd</color>
+    <color name="button_background_press">#f32726</color>
+
+    <color name="calendar_disabled_text_color_light">#23000000</color>
+
+    <!-- SublimeTimePicker -->
+    <color name="timepicker_default_numbers_background_color_material">@android:color/transparent
+    </color>
+
+    <!-- Recurrence Picker -->
+    <color name="recurrence_menu_divider_color">#30888888</color>
+
+    <!-- fake shadow (not used at present) -->
+    <!-- Shadow color for the first pixels around the fake shadow for recents. -->
+    <color name="fake_shadow_start_color">#44000000</color>
+
+    <!-- Shadow color for the furthest pixels around the fake shadow for recents. -->
+    <color name="fake_shadow_end_color">#03000000</color>
+
+    <!-- Overflow icon colors -->
+    <color name="overflow_icon_pressed_state_bg_color_light">#40ffffff</color>
+    <color name="overflow_icon_pressed_state_bg_color_dark">#40000000</color>
+
+    <color name="sp_ripple_material_dark">#33ffffff</color>
+
+    <color name="sp_primary_text_default_material_dark">#ffffffff</color>
+    <color name="sp_secondary_text_default_material_dark">#b3ffffff</color>
+    <color name="calendar_disabled_text_color_dark">#35ffffff</color>
+
+    <color name="progress_horizontal_progress">#0099CC</color>
+
+</resources>

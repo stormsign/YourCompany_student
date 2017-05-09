@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor_common"
+    android:orientation="vertical">
+
+    <!--<Button-->
+        <!--android:id="@+id/searchButton"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:text="搜索" />-->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent">
+        <AutoCompleteTextView
+            android:id="@+id/keyWord"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:layout_weight="1"
+            android:background="@color/white"
+            android:completionThreshold="1"
+            android:dropDownVerticalOffset="1.0dip"
+            android:hint="请输入关键字"
+            android:textColorHint="@color/textDarktwo"
+            android:imeOptions="actionDone"
+            android:inputType="text|textAutoComplete"
+            android:paddingRight="10.0dip"
+            android:singleLine="true"
+            android:textColor="#000000"
+            android:textSize="16.0sp"
+            android:drawableLeft="@mipmap/ico_orderdetail_address"
+            android:drawablePadding="5dp"
+            />
+        <!--<EditText-->
+            <!--android:id="@+id/location_edit"-->
+            <!--android:layout_width="fill_parent"-->
+            <!--android:layout_height="40dp"-->
+            <!--android:layout_alignParentTop="true"-->
+            <!--android:layout_marginBottom="8dp"-->
+            <!--android:layout_marginLeft="20dp"-->
+            <!--android:layout_marginRight="20dp"-->
+            <!--android:layout_marginTop="8dip"-->
+            <!--android:background="@color/white"-->
+            <!--android:editable="true"-->
+            <!--android:hint="输入搜索关键字"-->
+            <!--android:paddingBottom="5dp"-->
+            <!--android:paddingLeft="10dp"-->
+            <!--android:paddingTop="5dp"-->
+            <!--android:singleLine="true"-->
+            <!--android:textSize="15.0dip" />-->
+
+        <com.amap.api.maps.MapView
+            android:id="@+id/map"
+            android:layout_width="match_parent"
+            android:layout_height="fill_parent"
+            android:layout_below="@+id/keyWord"
+            android:clickable="true"
+            />
+        <!--<fragment-->
+        <!--android:id="@+id/map"-->
+        <!--class="com.amap.api.maps2d.SupportMapFragment"-->
+        <!--android:layout_width="fill_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_below="@+id/keyWord"-->
+        <!--/>-->
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/shape_border"
+        android:layout_marginTop="5dp"
+        android:layout_marginBottom="5dp">
+
+        <ImageView android:id="@+id/sysMsgIcon"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ico_msg_xitongtongzhi"
+            android:layout_alignParentLeft="true"
+            android:layout_marginRight="10dp"/>
+
+        <RelativeLayout android:id="@+id/title"
+            android:layout_toRightOf="@id/sysMsgIcon"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="系统通知"
+                android:textSize="@dimen/text_sysmsg_title"
+                android:textColor="@color/textDarkone"
+                android:layout_alignParentLeft="true"/>
+
+            <TextView android:id="@+id/time"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:textColor="@color/textDarktwo"
+                android:textSize="@dimen/text_sysmsg_content"
+                android:layout_alignParentRight="true"/>
+
+        </RelativeLayout>
+
+        <TextView android:id="@+id/content"
+            android:layout_toRightOf="@id/sysMsgIcon"
+            android:layout_below="@id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/text_sysmsg_content"
+            android:textColor="@color/textDarktwo"
+            android:layout_marginTop="6dp"/>
+
+    </RelativeLayout>
+
+</LinearLayout>

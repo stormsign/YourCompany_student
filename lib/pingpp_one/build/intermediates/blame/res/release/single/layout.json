@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\layout\\pingpp_pay_channel_item.xml",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\res\\layout\\pingpp_pay_channel_item.xml"
+    },
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\layout\\fragment_pay_way_dialog.xml",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\res\\layout\\fragment_pay_way_dialog.xml"
+    },
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\layout\\pingpp_activity_pay_successed.xml",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\res\\layout\\pingpp_activity_pay_successed.xml"
+    },
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\layout\\activity_pingpp_payment.xml",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp\\build\\intermediates\\bundles\\default\\res\\layout\\activity_pingpp_payment.xml"
+    },
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\layout\\pingpp_activity_pay.xml",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\res\\layout\\pingpp_activity_pay.xml"
+    },
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\layout\\cmbkeyboard.xml",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp\\build\\intermediates\\bundles\\default\\res\\layout\\cmbkeyboard.xml"
+    }
+]

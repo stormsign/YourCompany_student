@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\xml\\cmbkb_number_with_dot.xml",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp\\build\\intermediates\\bundles\\default\\res\\xml\\cmbkb_number_with_dot.xml"
+    },
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\xml\\cmbkb_qwerty.xml",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp\\build\\intermediates\\bundles\\default\\res\\xml\\cmbkb_qwerty.xml"
+    },
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\xml\\cmbkb_number_symbols.xml",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp\\build\\intermediates\\bundles\\default\\res\\xml\\cmbkb_number_symbols.xml"
+    },
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\xml\\cmbkb_number_with_change.xml",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp\\build\\intermediates\\bundles\\default\\res\\xml\\cmbkb_number_with_change.xml"
+    },
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\xml\\cmbkb_symbols.xml",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp\\build\\intermediates\\bundles\\default\\res\\xml\\cmbkb_symbols.xml"
+    },
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\xml\\cmbkb_number_with_x.xml",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp\\build\\intermediates\\bundles\\default\\res\\xml\\cmbkb_number_with_x.xml"
+    },
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp_one\\build\\intermediates\\res\\merged\\release\\xml\\cmbkb_number.xml",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\pingpp\\build\\intermediates\\bundles\\default\\res\\xml\\cmbkb_number.xml"
+    }
+]

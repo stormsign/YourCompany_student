@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor_common"
+    android:layout_marginBottom="20dp">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <LinearLayout android:id="@+id/orderContent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_border"
+            android:layout_marginTop="5dp"
+            android:orientation="vertical">
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <TextView android:id="@+id/orderStatus"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="@color/textOrange"
+                    android:layout_alignParentRight="true" />
+
+            </RelativeLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="#F3F3F3"
+                android:layout_marginLeft="1dp"
+                android:layout_marginRight="1dp">
+
+                <com.miuhouse.yourcompany.student.view.widget.CircularImageViewHome
+                    android:id="@+id/teacherHead"
+                    android:layout_width="@dimen/img_order_head_size"
+                    android:layout_height="@dimen/img_order_head_size"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginTop="6dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="6dp"/>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_gravity="center_vertical">
+
+                    <RelativeLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content">
+
+                        <TextView android:id="@+id/teacherName"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:textColor="@color/textDarkone"
+                            android:layout_marginBottom="5dp"
+                            android:textSize="15sp"
+                            android:layout_centerVertical="true"/>
+
+                        <ImageView android:id="@+id/orderTag"
+                            android:layout_toRightOf="@id/teacherName"
+                            android:layout_width="16dp"
+                            android:layout_height="16dp"
+                            android:layout_marginLeft="6dp"
+                            android:layout_centerVertical="true"/>
+
+
+                    </RelativeLayout>
+
+                    <TextView android:id="@+id/time"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/textDarkthree"
+                        android:textSize="15sp"/>
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="10dp">
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/textDarkthree"
+                        android:text="总计"
+                        android:textSize="14sp"/>
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textSize="18sp"
+                        android:textColor="@color/textDarkone"
+                        android:layout_marginLeft="5dp"
+                        android:layout_marginRight="8dp"
+                        android:id="@+id/totalPrice" />
+
+                    <TextView android:id="@+id/classCount"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/textDarkthree"
+                        android:textSize="14sp"/>
+
+                </LinearLayout>
+
+                <TextView android:id="@+id/orderManageButton"
+                    android:layout_width="@dimen/text_ordermanage_button_width"
+                    android:layout_height="@dimen/text_ordermanage_button_height"
+                    android:textColor="@color/textWhite"
+                    android:textSize="15sp"
+                    android:gravity="center"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/selector_ordermanage"/>
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+        <TextView android:id="@+id/orderType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="@mipmap/home_list_title_2"
+            android:text="@string/order_type_2"
+            android:textColor="@color/textWhite"
+            android:gravity="center"/>
+
+        <View
+        android:layout_width="match_parent"
+        android:layout_height="3dp"
+        android:background="@drawable/shadow_down"
+        android:layout_below="@id/orderContent"/>
+
+    </RelativeLayout>
+
+
+</LinearLayout>

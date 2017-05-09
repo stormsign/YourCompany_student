@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/selectable_item_background"
+    android:orientation="vertical">
+
+  <LinearLayout
+      android:layout_width="match_parent"
+      android:layout_height="0dp"
+      android:layout_marginBottom="@dimen/linear_12dp"
+      android:layout_marginLeft="@dimen/linear_16dp"
+      android:layout_marginRight="@dimen/linear_16dp"
+      android:layout_marginTop="@dimen/linear_16dp"
+      android:layout_weight="1"
+      android:orientation="horizontal">
+
+
+    <com.miuhouse.yourcompany.student.view.widget.CircularImageViewHome
+        android:id="@+id/avatar"
+        android:layout_width="@dimen/image_size_35"
+        android:layout_height="@dimen/image_size_35"
+        android:clickable="true"
+     />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/linear_8dp"
+        android:orientation="vertical">
+
+      <RelativeLayout
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/account_name"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:singleLine="true"
+            android:text="彭俊爸爸"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/textRed"
+            android:textSize="@dimen/text_13"/>
+
+        <TextView
+            android:id="@+id/tv_comment_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:text="三分钟之前"
+            android:textColor="#c4c4c4"
+            android:textSize="@dimen/text_12"/>
+      </RelativeLayout>
+
+      <TextView
+          android:id="@+id/twitter_content"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:layout_marginTop="@dimen/linear_8dp"
+          android:focusable="false"
+          android:focusableInTouchMode="false"
+          android:includeFontPadding="false"
+          android:lineSpacingExtra="@dimen/linear_4dp"
+          android:text="这是一条动态，讲述了几千年的历史.这是一条动态，讲述了几千年的历史.这是一条动态，讲述了几千年的历史.这是一条动态，讲述了几千年的历史"
+          android:textColor="#111111"
+          android:textSize="14sp"/>
+    </LinearLayout>
+  </LinearLayout>
+</LinearLayout>

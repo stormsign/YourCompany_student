@@ -1,0 +1,264 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor_common"
+    android:orientation="vertical">
+
+  <ScrollView
+      android:id="@+id/content"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      android:scrollbars="none">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+      <FrameLayout
+          android:layout_width="match_parent"
+          android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+          <RelativeLayout
+              android:id="@+id/relative_avatar"
+              android:layout_width="match_parent"
+              android:layout_height="75dp"
+              android:background="@android:color/white"
+              android:elevation="1dp">
+
+            <TextView
+                style="@style/user_info_text"
+                android:layout_alignParentLeft="true"
+                android:text="头像"/>
+
+            <com.miuhouse.yourcompany.student.view.widget.CircularImageViewHome
+                android:id="@+id/avatar"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="10dp"
+                android:layout_toLeftOf="@+id/img_avatar"
+                android:scaleType="centerCrop"/>
+
+            <ImageView
+                android:id="@+id/img_avatar"
+                style="@style/user_info_imageview"
+                android:layout_alignParentRight="true"/>
+          </RelativeLayout>
+
+          <LinearLayout
+              android:layout_width="match_parent"
+              android:layout_height="wrap_content"
+              android:layout_marginTop="10dp"
+              android:background="@android:color/white"
+              android:elevation="1dp"
+              android:orientation="vertical">
+
+            <RelativeLayout
+                android:id="@+id/relative_student_name"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/linear_45dp"
+                android:background="@drawable/selectable_item_background">
+
+              <TextView
+                  style="@style/user_info_text"
+                  android:layout_alignParentLeft="true"
+                  android:text="@string/student_name"/>
+
+              <TextView
+                  android:id="@+id/tv_student_name"
+                  style="@style/user_info_text_v"
+                  android:layout_marginRight="10dp"
+                  android:layout_toLeftOf="@+id/img_nicename"/>
+
+              <ImageView
+                  android:id="@+id/img_nicename"
+                  style="@style/user_info_imageview"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/view_line"/>
+
+            <RelativeLayout
+                android:id="@+id/relative_parent_name"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/linear_45dp"
+                android:background="@drawable/selectable_item_background">
+
+
+              <TextView
+                  style="@style/user_info_text"
+                  android:layout_alignParentLeft="true"
+                  android:text="@string/parent_name"/>
+
+              <TextView
+                  android:id="@+id/tv_parent_name"
+                  style="@style/user_info_text_v"
+                  android:layout_marginRight="10dp"
+                  android:layout_toLeftOf="@+id/img_sex"/>
+
+              <ImageView
+                  android:id="@+id/img_sex"
+                  style="@style/user_info_imageview"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/view_line"/>
+
+            <RelativeLayout
+                android:id="@+id/relative_grade"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/linear_45dp"
+                android:background="@drawable/selectable_item_background"
+                android:visibility="gone">
+
+              <TextView
+                  style="@style/user_info_text"
+                  android:layout_alignParentLeft="true"
+                  android:text="@string/student_grade"/>
+
+              <TextView
+                  android:id="@+id/tv_grade"
+                  style="@style/user_info_text_v"
+                  android:layout_marginRight="10dp"
+                  android:layout_toLeftOf="@+id/img_schollage"
+                  android:maxLength="30"/>
+
+              <ImageView
+                  android:id="@+id/img_schollage"
+                  style="@style/user_info_imageview"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/view_line"
+                android:visibility="gone"/>
+
+
+            <RelativeLayout
+                android:id="@+id/relative_subject"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/linear_45dp"
+                android:background="@drawable/selectable_item_background"
+                android:visibility="gone">
+
+
+              <TextView
+                  style="@style/user_info_text"
+                  android:layout_alignParentLeft="true"
+                  android:text="@string/suject"/>
+
+              <TextView
+                  android:id="@+id/tv_subject"
+                  style="@style/user_info_text_v"
+                  android:layout_marginRight="10dp"
+                  android:layout_toLeftOf="@+id/img_school"/>
+
+              <ImageView
+                  android:id="@+id/img_school"
+                  style="@style/user_info_imageview"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/view_line"
+                android:visibility="gone"/>
+
+            <RelativeLayout
+                android:id="@+id/relative_interest"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/linear_45dp"
+                android:background="@drawable/selectable_item_background"
+                android:visibility="gone">
+
+              <TextView
+                  style="@style/user_info_text"
+                  android:layout_alignParentLeft="true"
+                  android:text="@string/interest"/>
+
+              <TextView
+                  android:id="@+id/tv_interest"
+                  style="@style/user_info_text_v"
+                  android:layout_marginRight="10dp"
+                  android:layout_toLeftOf="@+id/img_education"/>
+
+              <ImageView
+                  android:id="@+id/img_education"
+                  style="@style/user_info_imageview"/>
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:background="@color/view_line"
+                android:visibility="gone"/>
+
+            <RelativeLayout
+                android:id="@+id/relative_mobile"
+                android:layout_width="match_parent"
+                android:layout_height="@dimen/linear_45dp"
+                android:background="@drawable/selectable_item_background"
+                android:elevation="1dp">
+
+
+              <TextView
+                  style="@style/user_info_text"
+                  android:layout_alignParentLeft="true"
+                  android:text="@string/parent_mobile"/>
+
+              <TextView
+                  android:id="@+id/tv_mobile"
+                  style="@style/user_info_text_v"
+                  android:layout_marginRight="10dp"
+                  android:layout_toLeftOf="@+id/img_university"/>
+
+              <ImageView
+                  android:id="@+id/img_university"
+                  style="@style/user_info_imageview"/>
+            </RelativeLayout>
+          </LinearLayout>
+
+          <RelativeLayout
+              android:id="@+id/relative_update_password"
+              android:layout_width="match_parent"
+              android:layout_marginTop="10dp"
+              android:layout_height="@dimen/linear_45dp"
+              android:background="@drawable/selectable_item_background"
+              android:elevation="1dp"
+              >
+
+            <TextView
+                style="@style/user_info_text"
+                android:layout_alignParentLeft="true"
+                android:text="修改密码"/>
+
+            <ImageView
+                style="@style/user_info_imageview"/>
+          </RelativeLayout>
+        </LinearLayout>
+
+        <ProgressBar
+            android:id="@+id/progressbar"
+            style="?android:progressBarStyleLargeInverse"
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:visibility="gone"/>
+      </FrameLayout>
+
+    </LinearLayout>
+  </ScrollView>
+</LinearLayout>

@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="10dp"
+    android:background="@color/backgroundcolor_common">
+
+    <LinearLayout android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/edit_user"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:gravity="left|center_vertical"
+            android:hint="姓名"
+            android:paddingLeft="10dp"
+            android:textColor="@color/textDarkone"
+            android:textColorHint="@color/textDarkfour"
+            android:textSize="@dimen/text_16" />
+
+        <TextView
+            android:id="@+id/tv_hint"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="4dp"
+            android:textColor="@color/textDarkthree"
+            android:textSize="@dimen/text_14" />
+
+    </LinearLayout>
+
+    <LinearLayout android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:background="@color/white">
+
+        <EditText
+            android:id="@+id/edit_cellphone_number"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:hint="您的手机号码"
+            android:phoneNumber="true"
+            android:textColor="@color/textDarktwo"
+            android:textColorHint="@color/textDarkfour"
+            android:textSize="16sp"
+            android:background="@null"
+            android:layout_marginLeft="@dimen/linear_12dp"
+            />
+        <View android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/view_line"
+            />
+        <LinearLayout
+            android:id="@+id/linear_code"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:orientation="horizontal"
+            android:background="@color/white">
+            <EditText
+                android:id="@+id/edit_code"
+                android:layout_weight="1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:hint="输入验证码"
+                android:numeric="integer"
+                android:textColor="@color/textDarktwo"
+                android:textColorHint="@color/textDarkfour"
+                android:layout_marginLeft="@dimen/linear_12dp"
+                android:textSize="16sp"
+                android:background="@null"
+                />
+
+            <TextView
+                android:id="@+id/tv_code"
+                android:layout_width="90dp"
+                android:layout_height="match_parent"
+                android:gravity="center_vertical|right"
+                android:text="获取验证码"
+                android:textColor="@color/textDarkthree"
+                android:textSize="16sp"
+                android:layout_marginRight="@dimen/linear_12dp"
+                />
+        </LinearLayout>
+        <View android:layout_width="match_parent"
+            android:layout_height="0.5dp"
+            android:background="@color/view_line" />
+
+    </LinearLayout>
+</LinearLayout>

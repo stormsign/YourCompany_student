@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/content">
+
+    <RelativeLayout android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:background="@color/themeColor"
+        android:fitsSystemWindows="true">
+
+        <com.miuhouse.yourcompany.student.view.widget.CircularImageViewHome
+            android:id="@+id/account"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="6dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="6dp"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            />
+
+        <TextView android:id="@+id/range"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:textColor="@color/textWhite"
+            android:textSize="17sp"
+            android:gravity="center_vertical"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:layout_centerInParent="true"/>
+
+        <!--<ImageView android:id="@+id/dropClasses"-->
+            <!--android:layout_width="10dp"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_toRightOf="@id/range"-->
+            <!--android:src="@mipmap/ico_drop"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:paddingTop="10dp"-->
+            <!--android:paddingBottom="10dp"/>-->
+
+        <ImageView android:id="@+id/manage"
+            android:layout_width="40dp"
+            android:layout_height="match_parent"
+            android:src="@mipmap/ico_white_cross"
+            android:paddingLeft="12dp"
+            android:paddingTop="10dp"
+            android:paddingRight="12dp"
+            android:paddingBottom="10dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"/>
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/title"
+        android:orientation="vertical">
+
+        <!--<android.support.design.widget.CoordinatorLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content">-->
+
+            <!--<android.support.design.widget.AppBarLayout-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="wrap_content"-->
+                <!--android:background="@color/white">-->
+
+                <!--<android.support.design.widget.CollapsingToolbarLayout-->
+                    <!--android:layout_width="match_parent"-->
+                    <!--android:layout_height="wrap_content"-->
+                    <!--app:layout_scrollFlags="scroll|exitUntilCollapsed|snap">-->
+
+                    <!--<android.support.v7.widget.CardView-->
+                        <!--android:id="@+id/manageLayout"-->
+                        <!--android:layout_width="match_parent"-->
+                        <!--android:layout_height="wrap_content"-->
+                        <!--android:orientation="vertical"-->
+                        <!--android:background="@color/white"-->
+                        <!--app:cardCornerRadius="0dp"-->
+                        <!--app:cardUseCompatPadding="true"-->
+                        <!--app:cardBackgroundColor="@color/white"-->
+                        <!--app:contentPadding="10dp"-->
+                        <!--app:cardElevation="5dp"-->
+                        <!--android:layout_marginLeft="-5dp"-->
+                        <!--android:layout_marginRight="-5dp"-->
+                        <!--android:layout_marginTop="-8dp"-->
+                        <!--android:layout_marginBottom="-3dp">-->
+
+                        <!--<LinearLayout-->
+                            <!--android:layout_width="match_parent"-->
+                            <!--android:layout_height="wrap_content">-->
+
+                            <!--<TextView android:id="@+id/publishText"-->
+                                <!--android:layout_width="0dp"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:layout_weight="1"-->
+                                <!--android:drawablePadding="5dp"-->
+                                <!--android:gravity="center"-->
+                                <!--android:text="发文字"-->
+                                <!--android:textColor="@color/textDarktwo"/>-->
+
+                            <!--<TextView android:id="@+id/publishPhoto"-->
+                                <!--android:layout_width="0dp"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:layout_weight="1"-->
+                                <!--android:drawablePadding="5dp"-->
+                                <!--android:gravity="center"-->
+                                <!--android:text="发照片"-->
+                                <!--android:textColor="@color/textDarktwo"/>-->
+
+                            <!--<TextView android:id="@+id/publishVideo"-->
+                                <!--android:layout_width="0dp"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:layout_weight="1"-->
+                                <!--android:drawablePadding="5dp"-->
+                                <!--android:gravity="center"-->
+                                <!--android:text="发视频"-->
+                                <!--android:textColor="@color/textDarktwo"/>-->
+
+                            <!--<TextView android:id="@+id/babies"-->
+                                <!--android:layout_width="0dp"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:layout_weight="1"-->
+                                <!--android:drawablePadding="5dp"-->
+                                <!--android:gravity="center"-->
+                                <!--android:text="宝宝"-->
+                                <!--android:visibility="visible"-->
+                                <!--android:textColor="@color/textDarktwo"/>-->
+
+                            <!--<TextView android:id="@+id/teachers"-->
+                                <!--android:layout_width="0dp"-->
+                                <!--android:layout_height="wrap_content"-->
+                                <!--android:layout_weight="1"-->
+                                <!--android:drawablePadding="5dp"-->
+                                <!--android:gravity="center"-->
+                                <!--android:text="老师"-->
+                                <!--android:visibility="gone"-->
+                                <!--android:textColor="@color/textDarktwo"/>-->
+
+                        <!--</LinearLayout>-->
+
+                    <!--</android.support.v7.widget.CardView>-->
+
+                <!--</android.support.design.widget.CollapsingToolbarLayout>-->
+
+            <!--</android.support.design.widget.AppBarLayout>-->
+
+            <android.support.v4.widget.SwipeRefreshLayout
+                android:id="@+id/refresh"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+                <android.support.v7.widget.RecyclerView
+                    android:id="@+id/recycler_my_twitter"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"/>
+
+            </android.support.v4.widget.SwipeRefreshLayout>
+
+        <!--</android.support.design.widget.CoordinatorLayout>-->
+
+    </LinearLayout>
+
+    <!--<LinearLayout android:id="@+id/translucentBg"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="match_parent"-->
+        <!--android:layout_below="@id/title"-->
+        <!--android:orientation="vertical"-->
+        <!--android:background="#88000000"-->
+        <!--android:visibility="visible">-->
+    <!--</LinearLayout>-->
+    
+    <!--<LinearLayout android:id="@+id/classSelector"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:orientation="vertical"-->
+        <!--android:layout_below="@id/title"-->
+        <!--android:visibility="gone">-->
+
+        <!--<ImageView android:id="@+id/selectorPointer"-->
+            <!--android:src="@mipmap/ico_drop"-->
+            <!--android:rotation="180"-->
+            <!--android:layout_width="15dp"-->
+            <!--android:layout_height="10dp"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:elevation="3dp"/>-->
+
+        <!--<android.support.v7.widget.RecyclerView-->
+            <!--android:id="@+id/classList"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:background="@drawable/bg_white_roundcorner"-->
+            <!--android:layout_gravity="center_horizontal"-->
+            <!--android:elevation="3dp"/>-->
+
+    <!--</LinearLayout>-->
+
+
+</RelativeLayout>

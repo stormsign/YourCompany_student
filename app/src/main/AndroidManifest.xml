@@ -1,0 +1,356 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.miuhouse.yourcompany.student">
+  <!--//通用-->
+  <uses-permission android:name="android.permission.CALL_PHONE"/>
+  <uses-permission android:name="android.permission.READ_PHONE_STATE"/>
+  <uses-permission android:name="android.permission.INTERNET"/>
+  <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE"/>
+  <uses-permission android:name="android.permission.ACCESS_WIFI_STATE"/>
+  <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.GET_TASKS"/>
+  <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED"/>
+  <uses-permission android:name="android.permission.WRITE_SETTINGS"/>
+  <uses-permission android:name="android.permission.VIBRATE"/>
+  <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE"/>
+  <uses-permission android:name="android.permission.DISABLE_KEYGUARD"/>
+  <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION"/>
+  <uses-permission android:name="android.permission.NFC"/>
+  <uses-permission android:name="android.permission.WAKE_LOCK"/>
+  <!--//定位包、导航包需要的额外权限（注：基础权限也需要）-->
+  <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION"/>
+  <uses-permission android:name="android.permission.ACCESS_LOCATION_EXTRA_COMMANDS"/>
+  <uses-permission android:name="android.permission.CHANGE_WIFI_STATE"/>
+
+  <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW"/>
+
+  <!-- 适配Android N系统必需的ContentProvider写权限声明，写权限包含应用包名-->
+  <uses-permission
+      android:name="baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.miuhouse.yourcompany.student"/>
+
+
+  <permission
+      android:name="baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.miuhouse.yourcompany.student"
+      android:protectionLevel="normal"/>
+
+  <application
+      android:name=".application.App"
+      android:allowBackup="true"
+      android:icon="@mipmap/ic_launcher"
+      android:label="@string/app_name"
+      android:theme="@style/AppTheme">
+    <!--友盟 -->
+    <meta-data
+        android:name="UMENG_APPKEY"
+        android:value="5833b5a804e2053fab002217"/>
+    <meta-data
+        android:name="UMENG_CHANNEL"
+        android:value="Umeng"/>
+
+
+    <meta-data
+        android:name="com.amap.api.v2.apikey"
+        android:value="68ff254c780a3daa1bfc1d8ad747cbbe"/>
+    <!-- 在百度开发者中心查询应用的API Key -->
+    <meta-data
+        android:name="api_key"
+        android:value="GTC1zjQQIPlnXf9ZvPCCrxnG"/>
+    <activity
+        android:name=".wxapi.WXEntryActivity"
+        android:configChanges="keyboardHidden|orientation|screenSize"
+        android:exported="true"
+        android:screenOrientation="portrait"
+        android:theme="@android:style/Theme.Translucent.NoTitleBar"/>
+
+    <activity
+        android:name="com.umeng.qq.tencent.AuthActivity"
+        android:launchMode="singleTask"
+        android:noHistory="true">
+
+      <intent-filter>
+        <action android:name="android.intent.action.VIEW"/>
+        <category android:name="android.intent.category.DEFAULT"/>
+        <category android:name="android.intent.category.BROWSABLE"/>
+        <data android:scheme="tencent100424468"/>
+      </intent-filter>
+    </activity>
+
+    <activity
+        android:name="com.umeng.qq.tencent.AssistActivity"
+        android:screenOrientation="portrait"
+        android:theme="@android:style/Theme.Translucent.NoTitleBar"
+        android:configChanges="orientation|keyboardHidden|screenSize"/>
+
+    <activity
+        android:name=".view.ui.activity.LoginRegistActivity"
+        android:label="@string/app_name"
+        android:launchMode="singleTop"
+        android:screenOrientation="portrait"
+    >
+      <intent-filter>
+        <action android:name="android.intent.action.MAIN"/>
+        <category android:name="android.intent.category.LAUNCHER"/>
+      </intent-filter>
+    </activity>
+
+
+    <activity
+        android:name="com.alipay.sdk.auth.AuthActivity"
+        android:configChanges="orientation|keyboardHidden|navigation|screenSize"
+        android:exported="false"
+        android:screenOrientation="behind"/>
+
+
+    <activity
+        android:name=".view.ui.activity.MainActivity"
+        android:launchMode="singleTask"
+        android:screenOrientation="portrait"
+        android:windowSoftInputMode="adjustPan"/>
+
+    <activity android:name=".view.ui.activity.SplashActivity"
+        android:screenOrientation="portrait"
+    >
+      <!--<intent-filter>-->
+      <!--<action android:name="android.intent.action.MAIN" />-->
+      <!--<category android:name="android.intent.category.LAUNCHER" />-->
+      <!--</intent-filter>-->
+    </activity>
+
+    <activity
+        android:name=".view.ui.activity.ChangeUserNameActivity"
+        android:screenOrientation="portrait"/>
+    <activity
+        android:name=".view.ui.activity.UserInformationActivity"
+        android:screenOrientation="portrait"/>
+    <activity
+        android:name="com.yalantis.ucrop.UCropActivity"
+        android:screenOrientation="portrait"
+        android:theme="@style/Theme.AppCompat.Light.NoActionBar"/>
+    <activity android:name=".view.ui.activity.AddressActivity"/>
+    <activity android:name=".view.ui.activity.MapActivity"/>
+    <activity android:name=".view.ui.activity.ChooseAddressActivity"/>
+    <activity android:name=".view.ui.activity.MultiImageSelectorActivity"/>
+    <activity android:name=".view.ui.activity.AllCommentActivity"/>
+    <activity android:name=".view.ui.activity.PhotoAlbumActivity"/>
+    <activity
+        android:name=".view.ui.activity.PicActivity"
+        android:configChanges="keyboardHidden|orientation"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme.Base_TWO"/>
+    <activity android:name=".view.ui.activity.OrderCommentActivity"/>
+    <activity
+        android:name=".view.ui.activity.DetailpagesActivity"
+        android:configChanges="keyboardHidden|orientation"
+        android:label="老师详情"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme.Base_TWO"/>
+    <!--android:label="@string/ff.about"-->
+    <!--android:screenOrientation="portrait"-->
+    <activity
+        android:name=".view.ui.activity.DescriptionIntroduceActivity"
+        android:label="@string/activity_description_introduce"
+        android:screenOrientation="portrait"
+        android:theme="@style/AppTheme.Base_TWO"/>
+    <!--订单确认-->
+    <activity
+        android:name=".view.ui.activity.OrderConfirmActivity"
+        android:screenOrientation="portrait"
+        android:windowSoftInputMode="adjustPan"/>
+    <!--订单支付-->
+    <activity
+        android:name=".view.ui.activity.OrderPayActivity"
+        android:screenOrientation="portrait"/>
+    <!--订单管理-->
+    <activity android:name=".view.ui.activity.OrdersManageActivity"/>
+    <!--订单详情-->
+    <activity android:name=".view.ui.activity.OrderDetailActivity"/>
+    <!--退款-->
+    <activity android:name=".view.ui.activity.OrderRefundActivity"/>
+    <!--支付成功-->
+    <activity android:name=".view.ui.activity.PayResultActivity"/>
+    <!--订单抢单状态-->
+    <activity android:name=".view.ui.activity.OrdersStatusActivity"/>
+    <!--选择老师成功-->
+    <activity android:name=".view.ui.activity.SelectSuccessActivity"/>
+    <!--系统消息页-->
+    <activity android:name=".view.ui.activity.SysMsgActivity"/>
+    <!--订单消息列表-->
+    <activity android:name=".view.ui.activity.OrderMsgActivity"/>
+    <!--长期订单-->
+    <activity android:name=".view.ui.activity.OrderLongTermDetailActivity"/>
+    <!--付款等待页面-->
+    <activity android:name=".view.ui.activity.PayHoldActivity"/>
+
+    <activity android:name=".view.ui.activity.LongTermSelect"/>
+    <activity android:name=".view.ui.activity.SettingActivity"/>
+    <activity android:name=".view.ui.activity.LongTermOrderConfirmActivity"/>
+    <activity android:name=".view.ui.activity.BrowserActivity"/>
+    <activity android:name=".view.ui.activity.GalleryActivity"
+        android:theme="@style/ThemeGalleryActivity"
+        android:screenOrientation="portrait"
+        android:label=""
+    />
+    <activity android:name=".view.ui.activity.DetailTwitterActivity"
+        android:windowSoftInputMode="stateHidden|adjustResize"
+    />
+    <activity android:name=".view.ui.activity.ResetPasswordActivity"/>
+    <activity android:name="mabeijianxi.camera.MediaRecorderActivity"/>
+    <!--发布动态-->
+    <activity android:name=".view.ui.activity.PublishActivity"/>
+    <!--小视频播放-->
+    <activity android:name=".view.ui.activity.VideoPlayerActivity"/>
+    <!--选择班级-->
+    <activity android:name=".view.ui.activity.ChooseClassActivity"/>
+    <!--未读消息列表-->
+    <activity android:name=".view.ui.activity.UnreadMsgActivity"/>
+
+    <activity android:name=".view.ui.activity.PersonalTwitterActivity"/>
+
+    <service android:name="com.amap.api.location.APSService"/>
+
+
+    <!--百度推送-->
+    <!-- push service start -->
+    <!-- 用于接收系统消息以保证PushService正常运行 -->
+    <!-- 适配Android N系统必需的ContentProvider声明，写权限包含应用包名-->
+    <provider
+        android:name="com.baidu.android.pushservice.PushInfoProvider"
+        android:authorities="com.miuhouse.yourcompany.student.bdpush"
+        android:exported="true"
+        android:protectionLevel="signature"
+        android:writePermission="baidu.push.permission.WRITE_PUSHINFOPROVIDER.com.miuhouse.yourcompany.student"/>
+    <receiver
+        android:name="com.baidu.android.pushservice.PushServiceReceiver"
+        android:process=":bdservice_v1">
+      <intent-filter>
+        <action android:name="android.intent.action.BOOT_COMPLETED"/>
+        <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+        <action android:name="com.baidu.android.pushservice.action.notification.SHOW"/>
+        <action android:name="com.baidu.android.pushservice.action.media.CLICK"/>
+        <!-- 以下四项为可选的action声明，可大大提高service存活率和消息到达速度 -->
+        <action android:name="android.intent.action.MEDIA_MOUNTED"/>
+        <action android:name="android.intent.action.USER_PRESENT"/>
+        <action android:name="android.intent.action.ACTION_POWER_CONNECTED"/>
+        <action android:name="android.intent.action.ACTION_POWER_DISCONNECTED"/>
+      </intent-filter>
+    </receiver>
+    <!-- Push服务接收客户端发送的各种请求-->
+    <receiver
+        android:name="com.baidu.android.pushservice.RegistrationReceiver"
+        android:process=":bdservice_v1">
+      <intent-filter>
+        <action android:name="com.baidu.android.pushservice.action.METHOD"/>
+        <action android:name="com.baidu.android.pushservice.action.BIND_SYNC"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+        <data android:scheme="package"/>
+      </intent-filter>
+    </receiver>
+    <service
+        android:name="com.baidu.android.pushservice.PushService"
+        android:exported="true"
+        android:process=":bdservice_v1">
+      <intent-filter>
+        <action android:name="com.baidu.android.pushservice.action.PUSH_SERVICE"/>
+      </intent-filter>
+    </service>
+    <!-- 4.4版本新增的CommandService声明，提升小米和魅族手机上的实际推送到达率 -->
+    <service
+        android:name="com.baidu.android.pushservice.CommandService"
+        android:exported="true"/>
+    <!-- push结束 -->
+
+    <receiver android:name=".receiver.BaiduPushReceiver">
+      <intent-filter>
+        <action android:name="com.baidu.android.pushservice.action.MESSAGE"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="com.baidu.android.pushservice.action.RECEIVE"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="com.baidu.android.pushservice.action.notification.CLICK"/>
+      </intent-filter>
+    </receiver>
+
+
+    <!--华为推送-->
+    <!-- 第三方相关 :接收Push消息（注册、Push消息、Push连接状态、标签，LBS上报 结果）广播 -->
+    <receiver android:name=".receiver.HWReceiver">
+      <intent-filter>                 <!-- 必须,用于接收token-->
+        <action android:name="com.huawei.android.push.intent.REGISTRATION"/>
+        <!-- 必须，用于接收消息-->
+        <action android:name="com.huawei.android.push.intent.RECEIVE"/>
+        <!-- 可选，用于点击通知栏或通知栏上的按钮后触发onEvent回调-->
+        <action android:name="com.huawei.android.push.intent.CLICK"/>
+        <!-- 可选，查看push通道是否连接，不查看则不需要-->
+        <action android:name="com.huawei.intent.action.PUSH_STATE"/>
+        <!-- 可选，标签、地理位置上报回应，不上报则不需要 -->
+        <action android:name="com.huawei.android.push.plugin.RESPONSE"/>
+      </intent-filter>
+      <meta-data
+          android:name="CS_cloud_ablitity"
+          android:value="@string/hwpush_ability_value"/>
+    </receiver>
+
+    <!-- 备注：Push相关的android组件需要添加到业务的AndroidManifest.xml,           Push相关android组件运行在另外一个进程是为了防止Push服务异常而影响主业务 -->                    <!-- PushSDK:PushSDK接收外部请求事件入口 -->
+    <receiver
+        android:name="com.huawei.android.pushagent.PushEventReceiver"
+        android:process=":pushservice">
+      <intent-filter>
+        <action android:name="com.huawei.android.push.intent.REFRESH_PUSH_CHANNEL"/>
+        <action android:name="com.huawei.intent.action.PUSH"/>
+        <action android:name="com.huawei.intent.action.PUSH_ON"/>
+        <action android:name="com.huawei.android.push.PLUGIN"/>
+      </intent-filter>
+      <intent-filter>
+        <action android:name="android.intent.action.PACKAGE_ADDED"/>
+        <action android:name="android.intent.action.PACKAGE_REMOVED"/>
+
+        <data android:scheme="package"/>
+      </intent-filter>
+    </receiver>
+    <receiver
+        android:name="com.huawei.android.pushagent.PushBootReceiver"
+        android:process=":pushservice">
+      <intent-filter>
+        <action android:name="com.huawei.android.push.intent.REGISTER"/>
+        <action android:name="android.net.conn.CONNECTIVITY_CHANGE"/>
+      </intent-filter>
+      <meta-data
+          android:name="CS_cloud_version"
+          android:value="\u0032\u0037\u0030\u0034"/>
+    </receiver>
+
+    <!-- PushSDK:Push服务 -->
+    <service
+        android:name="com.huawei.android.pushagent.PushService"
+        android:process=":pushservice"/>
+
+    <!-- PushSDK:富媒体呈现页面，用于呈现服务器下发的富媒体消息 -->         <!-- locale|layoutDirection 切换语言后不重新创建activity -->
+    <activity
+        android:name="com.huawei.android.pushselfshow.richpush.RichPushActivity"
+        android:configChanges="orientation|screenSize|locale|layoutDirection"
+        android:process=":pushservice"
+        android:screenOrientation="portrait"
+        android:theme="@style/hwpush_NoActionBar">
+      <meta-data
+          android:name="hwc-theme"
+          android:value="androidhwext:style/Theme.Emui"/>
+      <intent-filter>
+        <action android:name="com.huawei.android.push.intent.RICHPUSH"/>
+
+        <category android:name="android.intent.category.DEFAULT"/>
+      </intent-filter>
+    </activity>
+    <activity
+        android:name="com.huawei.android.pushselfshow.permission.RequestPermissionsActivity"
+        android:configChanges="orientation|screenSize|locale|layoutDirection"
+        android:exported="false"
+        android:launchMode="singleTop"
+        android:screenOrientation="portrait"
+        android:theme="@android:style/Theme.DeviceDefault.Light.Dialog.NoActionBar"/>
+
+  </application>
+
+</manifest>

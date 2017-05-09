@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/backgroundcolor_common">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal"
+        android:background="@color/white"
+        android:paddingTop="22dp"
+        android:paddingBottom="36dp"
+        android:elevation="3dp">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@mipmap/ico_zhifucg"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="支付成功"
+            android:textColor="@color/textOrange"
+            android:textSize="18sp"
+            android:layout_marginTop="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="恭喜你支付成功，可进入订单详情\n查看订单"
+            android:textColor="@color/textDarktwo"
+            android:textSize="15sp"
+            android:gravity="center_horizontal"
+            android:layout_marginTop="10dp"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_marginTop="22dp">
+
+        <TextView android:id="@+id/goBack"
+            android:layout_width="137dp"
+            android:layout_height="36dp"
+            android:text="返回"
+            android:textSize="15sp"
+            android:textColor="@color/textDarkone"
+            android:background="@drawable/selector_grey_button_round"
+            android:layout_marginRight="44dp"
+            android:gravity="center"/>
+
+        <TextView android:id="@+id/check"
+            android:layout_width="137dp"
+            android:layout_height="36dp"
+            android:text="查看订单"
+            android:textSize="15sp"
+            android:textColor="@color/textWhite"
+            android:background="@drawable/selector_orange_button_round"
+            android:gravity="center"/>
+
+    </LinearLayout>
+
+</LinearLayout>

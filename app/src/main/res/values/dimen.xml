@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="activity_horizontal_margin">0dp</dimen>
+    <dimen name="activity_vertical_margin">0dp</dimen>
+    <dimen name="padding_toolbar_back">6dp</dimen>
+    <dimen name="height_toolbar">10dp</dimen>
+    <dimen name="distance_20">20dp</dimen>
+    <dimen name="distance_8">8dp</dimen>
+    <dimen name="folder_cover_size">72dp</dimen>
+    <dimen name="image_size">120dp</dimen>
+    <dimen name="space_size">2dp</dimen>
+    <!-- 登录-->
+    <dimen name="welcome_images_size">360.0dip</dimen>
+    <dimen name="welcome_images_margin_top">0.0dip</dimen>
+    <dimen name="welcome_heading_margin_bottom">12.0dip</dimen>
+    <dimen name="welcome_text_margin">48.0dip</dimen>
+    <dimen name="welcome_heading">24.0sp</dimen>
+    <dimen name="welcome_text_margin_bottom">12.0dip</dimen>
+    <dimen name="welcome_content_min_height">96.0dip</dimen>
+    <dimen name="welcome_content">16.0sp</dimen>
+    <dimen name="ld_side_margin">22dp</dimen>
+    <dimen name="ld_side_cb_margin">16dp</dimen>
+    <dimen name="home_indicator_padding">10dp</dimen>
+    <!-- end -->
+    <!-- 文字大小-->
+    <dimen name="text_11">11sp</dimen>
+    <dimen name="text_12">12sp</dimen>
+    <dimen name="text_13">13sp</dimen>
+    <dimen name="text_14">14sp</dimen>
+    <dimen name="text_15">15sp</dimen>
+    <dimen name="text_16">16sp</dimen>
+    <dimen name="text_17">17sp</dimen>
+    <dimen name="text_18">18sp</dimen>
+    <!-- end -->
+
+    <dimen name="linear_45dp">50dp</dimen>
+    <dimen name="linear_12dp">12dp</dimen>
+    <dimen name="linear_16dp">16dp</dimen>
+    <dimen name="linear_8dp">8dp</dimen>
+    <dimen name="linear_40dp">40dp</dimen>
+    <dimen name="linear_80dp">80dp</dimen>
+    <dimen name="linear_4dp">4dp</dimen>
+    <dimen name="mis_folder_cover_size">72dp</dimen>
+    <dimen name="mis_image_size">120dp</dimen>
+    <dimen name="mis_space_size">2dp</dimen>
+    <dimen name="image_size_35">35dp</dimen>
+    <dimen name="image_size_40">40dp</dimen>
+</resources>

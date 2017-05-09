@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ebpay_pwdpay_check_sel.png",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ebpay_pwdpay_check_sel.png"
+    },
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ebpay_pwdpay_check_disable.png",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ebpay_pwdpay_check_disable.png"
+    },
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ebpay_pwdpay_radio_bg.png",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ebpay_pwdpay_radio_bg.png"
+    },
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ebpay_pwdpay_next.png",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ebpay_pwdpay_next.png"
+    },
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\wallet_base_indicator_arrow.png",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\wallet_base_indicator_arrow.png"
+    },
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ebpay_pwdpay_check_bg.png",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ebpay_pwdpay_check_bg.png"
+    },
+    {
+        "merged": "F:\\Android\\Projects\\YourCompany_student\\lib\\bdwallet_pay_sdk\\build\\intermediates\\res\\merged\\androidTest\\debug\\drawable-xhdpi-v4\\ebpay_pwdpay_radio_sel.png",
+        "source": "F:\\Android\\Projects\\YourCompany_student\\lib\\bdwallet_pay_sdk\\build\\intermediates\\bundles\\debug\\res\\drawable-xhdpi-v4\\ebpay_pwdpay_radio_sel.png"
+    }
+]

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:background="@drawable/shape_border"
+        android:padding="14dp">
+
+        <TextView
+            android:id="@+id/tv_address"
+            style="@style/text_style"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginRight="40dp"
+
+            />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/tv_address"
+            android:layout_marginTop="15dp"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/btn_delete"
+                android:layout_width="70dp"
+                android:layout_height="24dp"
+                android:background="@drawable/border_round_enable"
+                android:text="删除"
+                android:textColor="@color/textDarktwo"
+                android:textSize="@dimen/text_14" />
+
+            <Button
+                android:id="@+id/btn_edit"
+                android:layout_width="70dp"
+                android:layout_height="24dp"
+                android:layout_marginLeft="15dp"
+                android:background="@drawable/border_round_content_black"
+                android:text="编辑"
+                android:textColor="@color/white"
+                android:textSize="@dimen/text_14" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/img_default"
+            android:layout_width="20dp"
+            android:layout_height="20dp"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:background="@mipmap/combined_smell"
+             />
+    </RelativeLayout>
+</LinearLayout>

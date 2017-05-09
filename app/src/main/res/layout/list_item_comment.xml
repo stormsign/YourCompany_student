@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp"
+    android:paddingTop="5dp">
+
+    <com.miuhouse.yourcompany.student.view.widget.CircularImageViewHome
+        android:id="@+id/img_avatar"
+        android:layout_width="45dp"
+        android:layout_height="45dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:src="@mipmap/ico_head_default" />
+
+    <TextView
+        android:id="@+id/tv_name"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/img_avatar"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/img_avatar"
+        android:text="张××"
+        android:textColor="@color/textDarktwo"
+        android:textSize="@dimen/text_15" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/tv_name"
+        android:layout_marginLeft="10dp"
+        android:layout_toRightOf="@+id/tv_name"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/img_rank"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:src="@mipmap/lszl_ico_starorg" />
+
+        <ImageView
+            android:id="@+id/img_rank1"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_marginLeft="3.5dp"
+            android:src="@mipmap/lszl_ico_starorg" />
+
+        <ImageView
+            android:id="@+id/img_rank2"
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_marginLeft="3.5dp"
+            android:src="@mipmap/lszl_ico_starorg" />
+
+        <ImageView
+            android:id="@+id/img_rank3"
+
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_marginLeft="3.5dp"
+            android:src="@mipmap/lszl_ico_starorg" />
+
+        <ImageView
+            android:id="@+id/img_rank4"
+
+            android:layout_width="14dp"
+            android:layout_height="14dp"
+            android:layout_marginLeft="3.5dp"
+            android:src="@mipmap/lszl_ico_starorg" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_date"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tv_name"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_toRightOf="@+id/img_avatar"
+        android:text="12/12 12:30"
+        android:textColor="@color/textDarkthree" />
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="left"
+            android:text="上课类型:"
+            android:textColor="@color/textDarkfour"
+            android:textSize="@dimen/text_11" />
+
+        <TextView
+            android:id="@+id/tv_type"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/textDarkfour"
+            android:textSize="@dimen/text_11" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/tv_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/img_avatar"
+        android:layout_marginTop="10dp"
+        android:text="伟大的成绩和辛勤劳动是成正比例的，有一分劳动就 有一分收获，日积月累，从少到多，奇迹就可以创造 出来"
+        android:textColor="@color/textDarktwo"
+        android:textSize="@dimen/text_15" />
+</RelativeLayout>
